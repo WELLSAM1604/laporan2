@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="bootstrap-5.3.3-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head> 
+<body>
+    <header>
+        <ul>
+            <li id="SWITCH">
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" onclick="toggleChaosMode()">
+                <label class="form-check-label" for="flexSwitchCheckDefault">Chaos</label>
+              </div>
+            </li>
+          </ul> 
+        <h1>LAPORAN TEORI</h1>
+        <center><h2>SAMUEL ANUGRAH
+            <br>
+            202331006
+        </h2></center>
+        <hr>
+        <div class="baba">
+        <div class="overlay">
+            <table>
+                <tr>
+                    <td>
+                        <img src="wellsamganteng.jpg" alt="Foto Samuel" id="sitampan">
+                        <p><strong>Nama:</strong> Samuel</p>
+                        <p><strong>NIM:</strong> 202331006</p>
+                        <p><strong>Jurusan:</strong> S1 Teknik Informatika</p>
+                        <p><strong>Kesenangan:</strong> Membaca dan bermain game</p>
+                    </td>
+                </tr>
+            </table>
+        </div> 
+    </div> 
+
+    </header>
+    <main>
+        <div class="accordion" id="accordiongwh">
+
+            <div class="accordion-item">
+      
+              <h3 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  1.	Mengapa menggunakan CSS dan JavaScript dalam pemrograman web?
+                </button>
+              </h3>
+      
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    CSS dan JavaScript digunakan untuk memperindah tampilan web dan menambahkan fitur-fitur interaktif yang lebih pada halaman web yang dibuat.
+                </div>
+              </div>
+      
+            </div>
+      
+            <div class="accordion-item">
+      
+              <h3 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  2.	Bagaimana CSS dan JavaScript dapat diintegrasikan dalam pemrograman web?
+                </button>
+              </h3>
+      
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    CSS dapat diintegrasikan ke dalam web dengan beberapa cara, yaitu:
+                    
+                      Cara internal, ditulis dalam tag <strong>&lt;style&gt;...&lt;/style&gt;</strong>.
+                      Cara eksternal, dengan membuat file CSS terpisah dan menyambungkannya menggunakan tag <strong>&lt;link rel=&quot;stylesheet&quot; href=&quot;path file css&quot;&gt;</strong>.
+                      Cara inline, ditulis langsung pada atribut elemen HTML menggunakan <strong>style</strong>.
+                      JavaScript dapat diintegrasikan dengan beberapa cara, yaitu:
+   
+      Cara internal, ditulis di dalam tag <strong>&lt;script&gt;...&lt;/script&gt;</strong>.
+      Cara eksternal, dengan membuat file JavaScript terpisah dan menyambungkannya menggunakan tag <strong>&lt;script src=&quot;path file js&quot;&gt;&lt;/script&gt;</strong>.
+      Cara inline, ditulis langsung pada atribut elemen HTML, contohnya <strong>onclick</strong>.
+
+                </div>
+              </div>
+      
+            </div>
+            
+            <div class="accordion-item">
+      
+              <h3 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  3.	Jelaskan apa saja keuntungan menggunakan JavaScipt dan CSS?
+                </button>
+              </h3>
+      
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+      
+                    Keuntungan menggunakan CSS adalah web tampil dengan lebih konsisten, lebih cepat, dan mudah dalam pemeliharaan. Sedangkan keuntungan menggunakan JavaScipt adalah web menjadi lebih interaktif, responsif, serta kompatibel dengan semua browser. 
+      
+                </div>
+              </div>
+      
+            </div>
+              
+            <div class="accordion-item">
+      
+              <h3 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  4.	Jelaskan apa saja keuntungan menggunakan Bootstrap?
+                </button>
+              </h3>
+      
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Keuntungan memakai bootstrap yang terutama ialah komponen yang siap pakai. Kita tidak perlu mengetik satu per satu file CSS ataupun JavaScript yang ingin kita pakai di web kita
+                </div>
+              </div>
+            
+            </div>
+      
+            <div class="accordion-item">
+      
+              <h3 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  5. Berikan salah satu contoh penggunaan Bootstrap lalu jelaskan apa fungsinya serta berikan screenshot hasil running di web-nya!
+                </button>
+              </h3>
+      
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                 
+                    <div class="code-box">
+                        <pre><code>
+                    &lt;!DOCTYPE html&gt;
+                    &lt;html lang="en"&gt;
+                    &lt;head&gt;
+                        &lt;meta charset="UTF-8"&gt;
+                        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                        &lt;title&gt;Document&lt;/title&gt;
+                        &lt;link rel="stylesheet" href="assets/css/bootstrap.css"&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                        &lt;div class="row mt-5"&gt;
+                            &lt;div class="col-12"&gt;
+                                &lt;div class="table-responsive"&gt;
+                                    &lt;table class="table table-bordered table-striped table-hover"&gt;
+                                        &lt;thead&gt;
+                                            &lt;tr&gt;
+                                                &lt;th&gt;First name&lt;/th&gt;
+                                                &lt;th&gt;Last name&lt;/th&gt;
+                                                &lt;th&gt;Email&lt;/th&gt;
+                                            &lt;/tr&gt;
+                                        &lt;/thead&gt;
+                                        &lt;tbody&gt;
+                                            &lt;tr&gt;
+                                                &lt;td&gt;Pakde&lt;/td&gt;
+                                                &lt;td&gt;Sihotang&lt;/td&gt;
+                                                &lt;td&gt;pakde.icikiwir@gmail.com&lt;/td&gt;
+                                            &lt;/tr&gt;
+                                            &lt;tr&gt;
+                                                &lt;td&gt;Wellsam&lt;/td&gt;
+                                                &lt;td&gt;Angkasa&lt;/td&gt;
+                                                &lt;td&gt;akuGanteng123@gmail.com&lt;/td&gt;
+                                            &lt;/tr&gt;
+                                            &lt;tr&gt;
+                                                &lt;td&gt;Hiyaa&lt;/td&gt;
+                                                &lt;td&gt;Huyaaa&lt;/td&gt;
+                                                &lt;td&gt;auahM4135@gmail.com&lt;/td&gt;
+                                            &lt;/tr&gt;
+                                        &lt;/tbody&gt;
+                                    &lt;/table&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/body&gt;
+                    &lt;/html&gt;
+                        </code></pre>
+                    </div>                
+                <h4>Screenshoot hasil: </h4>
+                <img src="image.png">
+                
+      
+                </div>
+              </div>
+      
+          </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
